@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08a0b9b-3299-47a3-a675-7a78975bf4bd" name="Changes" comment=";lklk;lk;lk;">
-      <change afterPath="$PROJECT_DIR$/src/com/hormozhalimi/generics/GenericList.java" afterDir="false" />
+    <list default="true" id="e08a0b9b-3299-47a3-a675-7a78975bf4bd" name="Changes" comment="Added User and Userlist to use it in Generic Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hormozhalimi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hormozhalimi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hormozhalimi/generics/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hormozhalimi/generics/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hormozhalimi/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hormozhalimi/generics/GenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hormozhalimi/generics/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hormozhalimi/generics/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -105,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672805976602</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added User and Userlist to use it in Generic Class">
+      <created>1672808581385</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672808581385</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=";lklk;lk;lk;" />
-    <option name="LAST_COMMIT_MESSAGE" value=";lklk;lk;lk;" />
+    <MESSAGE value="Added User and Userlist to use it in Generic Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added User and Userlist to use it in Generic Class" />
   </component>
 </project>
