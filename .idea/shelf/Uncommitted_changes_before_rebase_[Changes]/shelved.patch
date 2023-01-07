@@ -1,0 +1,140 @@
+Index: src/com/hormozhalimi/generics/GenericList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.hormozhalimi.generics;\r\n\r\npublic class GenericList <T> {\r\n    private T[] items =  (T[]) new Object[10];\r\n    private int count;\r\n\r\npublic void add(T item){\r\n    items[count++] = item;\r\n}\r\npublic T get(int index){\r\n    return items[index];\r\n}\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/hormozhalimi/generics/GenericList.java b/src/com/hormozhalimi/generics/GenericList.java
+--- a/src/com/hormozhalimi/generics/GenericList.java	(revision 3907f9a8702484fb455a5dcb9d973ee09f6f5f29)
++++ b/src/com/hormozhalimi/generics/GenericList.java	(date 1672868696020)
+@@ -3,7 +3,6 @@
+ public class GenericList <T> {
+     private T[] items =  (T[]) new Object[10];
+     private int count;
+-
+ public void add(T item){
+     items[count++] = item;
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e08a0b9b-3299-47a3-a675-7a78975bf4bd\" name=\"Changes\" comment=\";lklk;lk;lk;\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/com/hormozhalimi/generics/GenericList.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/hormozhalimi/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/hormozhalimi/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/hormozhalimi/generics/List.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/hormozhalimi/generics/List.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"hormozhalimi &lt;halimihormoz@gmail.com&gt;\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2JqGyCcjrS34jZ8sO8tuEXc4WOu\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e08a0b9b-3299-47a3-a675-7a78975bf4bd\" name=\"Changes\" comment=\"\" />\r\n      <created>1672798454546</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1672798454546</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\";lklk;lk;lk;\">\r\n      <created>1672801920963</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1672801920963</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\";lklk;lk;lk;\">\r\n      <created>1672801942823</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1672801942823</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\";lklk;lk;lk;\">\r\n      <created>1672802025969</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1672802025969</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\";lklk;lk;lk;\">\r\n      <created>1672802057073</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1672802057073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\";lklk;lk;lk;\">\r\n      <created>1672802353925</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1672802353925</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\";lklk;lk;lk;\">\r\n      <created>1672802376158</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1672802376158</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\";lklk;lk;lk;\">\r\n      <created>1672805976602</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1672805976602</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\";lklk;lk;lk;\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\";lklk;lk;lk;\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3907f9a8702484fb455a5dcb9d973ee09f6f5f29)
++++ b/.idea/workspace.xml	(date 1672870313530)
+@@ -4,17 +4,18 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e08a0b9b-3299-47a3-a675-7a78975bf4bd" name="Changes" comment=";lklk;lk;lk;">
+-      <change afterPath="$PROJECT_DIR$/src/com/hormozhalimi/generics/GenericList.java" afterDir="false" />
++    <list default="true" id="e08a0b9b-3299-47a3-a675-7a78975bf4bd" name="Changes" comment="Added User and Userlist to use it in Generic Class">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/com/hormozhalimi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hormozhalimi/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/hormozhalimi/generics/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hormozhalimi/generics/List.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/hormozhalimi/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hormozhalimi/generics/GenericList.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/hormozhalimi/generics/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hormozhalimi/generics/User.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="ChangesViewManager" show_ignored="true" />
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+@@ -105,7 +106,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1672805976602</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="Added User and Userlist to use it in Generic Class">
++      <created>1672808581385</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1672808581385</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -133,6 +141,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value=";lklk;lk;lk;" />
+-    <option name="LAST_COMMIT_MESSAGE" value=";lklk;lk;lk;" />
++    <MESSAGE value="Added User and Userlist to use it in Generic Class" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added User and Userlist to use it in Generic Class" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/com/hormozhalimi/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.hormozhalimi;\r\n\r\nimport com.hormozhalimi.generics.GenericList;\r\nimport com.hormozhalimi.generics.User;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        var list = new GenericList<User>();\r\n        list.add(new User());\r\n        User user = list.get(0);\r\n        System.out.println(user);\r\n\r\n\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/hormozhalimi/Main.java b/src/com/hormozhalimi/Main.java
+--- a/src/com/hormozhalimi/Main.java	(revision 3907f9a8702484fb455a5dcb9d973ee09f6f5f29)
++++ b/src/com/hormozhalimi/Main.java	(date 1672872415828)
+@@ -5,10 +5,15 @@
+ 
+ public class Main {
+     public static void main(String[] args) {
+-        var list = new GenericList<User>();
+-        list.add(new User());
+-        User user = list.get(0);
+-        System.out.println(user);
++        var user1 = new User(10);
++        var user2 = new User(20);
++        if(user1.compareTo(user2) < 0)
++            System.out.println("user1 is smaller than user2");
++        else if (user1.compareTo(user2) == 0)
++            System.out.println("user1 is equal to user2 ");
++        else
++        System.out.println("user1 is greather then user2");
++
+ 
+ 
+ 
+Index: src/com/hormozhalimi/generics/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.hormozhalimi.generics;\r\n\r\npublic class User {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/hormozhalimi/generics/User.java b/src/com/hormozhalimi/generics/User.java
+--- a/src/com/hormozhalimi/generics/User.java	(revision 3907f9a8702484fb455a5dcb9d973ee09f6f5f29)
++++ b/src/com/hormozhalimi/generics/User.java	(date 1672872415813)
+@@ -1,4 +1,22 @@
+ package com.hormozhalimi.generics;
+ 
+-public class User {
++public class User  implements Comparable <User> {
++    private int points;
++
++    public User(int points) {
++        this.points = points;
++    }
++    @Override
++    public int compareTo(User other) {
++
++        return points - other.points;
++        /*
++        if(points < o.points)
++            return -1;
++        if (points == o.points)
++            return 0;
++        return -1;
++
++         */
++    }
+ }

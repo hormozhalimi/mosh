@@ -6,6 +6,7 @@ public class User  implements Comparable <User> {
     public User(int points) {
         this.points = points;
     }
+
     @Override
     public int compareTo(User other) {
 
@@ -19,4 +20,8 @@ public class User  implements Comparable <User> {
 
          */
     }
-}
+        @Override
+        public String toString() {
+            return "Points=" + points;
+        }
+    }
