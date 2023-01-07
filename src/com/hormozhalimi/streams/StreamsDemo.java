@@ -9,17 +9,19 @@ public class StreamsDemo {
                 new Movie("b", 15),
                 new Movie("c", 20)
         );
-        /*
+
+
+        var count2 = movies.stream()
+                .filter(movie -> movie.getLikes()> 10)
+                .count();
+        
+                /*
         int count = 0;
         for(var movie : movies)
             if(movie.getLikes() > 10)
                 count++;
 
          */
-
-        var count2 = movies.stream()
-                .filter(movie -> movie.getLikes()> 10)
-                .count();
 
     }
 }
