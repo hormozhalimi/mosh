@@ -6,7 +6,9 @@ public class GenericList <T> {
 public void add(T item){
     items[count++] = item;
 }
-public T get(int index){
+
+    
+    public T get(int index){
     return items[index];
 }
 }
